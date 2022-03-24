@@ -67,7 +67,7 @@ public class AppTest
 
 
         WebElement searchbox = driver.findElement(By.name("email_create"));
-        searchbox.sendKeys("grupo1_13@gmail.com");
+        searchbox.sendKeys("grupo1_14@gmail.com");
         searchbox.submit();
 
         WebElement element4 = driver.findElement(By.xpath("//button[contains(@name,'SubmitCreate')]"));
@@ -82,7 +82,7 @@ public class AppTest
 
         //Test 1
 
-        if(driver.findElement(By.id("email")).getAttribute("value").equals("grupo1_13@gmail.com"))
+        if(driver.findElement(By.id("email")).getAttribute("value").equals("grupo1_14@gmail.com"))
         {
             System.out.println("Test 1 - Coincide email: OK");
         }
